@@ -1,27 +1,7 @@
 # actions-lede-r619ac
 `Lean's lede for P&W R619AC.`
 
-主要包含的部分插件（详见seed.config）：
-VNStat流量监控
-TTYD终端
-PassWall
-HelloWorld (vssr)
-广告屏蔽大师 Plus+ (Adbyby)
-ShadowSocksR Plus+
-上网时间控制
-OpenClash
-解锁网易云灰色歌曲（Golang）
-动态DNS (DDNS)
-SmartDNS
-网络唤醒 (WOL)
-KMS服务器 (vlmcsd)
-Docker
-aMule
-Transmission
-硬盘休眠 (包括hdparm)
-OpenVPN/IPSec 服务器
-SQM QoS
-Turbo ACC 网络加速 (Shortcut-FE)
+包含的插件请详见seed.config。
 
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
