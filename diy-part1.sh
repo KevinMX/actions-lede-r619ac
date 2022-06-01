@@ -23,21 +23,19 @@ git clone https://github.com/fw876/helloworld package/helloworld
 #Add upstream passwall
 git clone -b packages https://github.com/xiaorouji/openwrt-passwall package/passwall_package
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
-cp -rf ./package/passwall_package/* ./package/passwall
-rm -rf ./package/passwall_package
 
 #Add upstream vssr
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 
 #Add openclash
-git clone --depth=1 https://github.com/vernesong/OpenClash ./package/lean/luci-app-openclash
+git clone --depth=1 https://github.com/vernesong/OpenClash package/lean/luci-app-openclash
 
 #Add upstream smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 
 #Add atmaterial theme
-git clone https://github.com/Dawneng/luci-theme-atmaterial
+git clone https://github.com/Dawneng/luci-theme-atmaterial package/luci-theme-atmaterial
 
 #Replace argon theme with upstream version
 rm -rf package/feeds/luci-theme-argon
