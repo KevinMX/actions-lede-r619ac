@@ -19,3 +19,6 @@ sed -i 's/OpenWrt/MX.G-Dock/g' package/base-files/files/bin/config_generate
 #Unblock AcFun in Adbyby
 sed -i '/yximg/d' feeds/luci/applications/luci-app-adbyby-plus/root/etc/init.d/adbyby
 sed -i '/yximg/d' feeds/luci/applications/luci-app-adbyby-plus/root/etc/init.d/adbyby
+
+#Fix mosdns build (see https://github.com/QiuSimons/openwrt-mos/issues/126)
+rm -rf feeds/packages/net/mosdns
