@@ -22,4 +22,3 @@ sed -i '/yximg/d' feeds/luci/applications/luci-app-adbyby-plus/root/etc/init.d/a
 
 #Fix mosdns build (see https://github.com/QiuSimons/openwrt-mos/issues/126)
 rm -rf feeds/packages/net/mosdns
-rm -rf package/small-package/{luci-app-mosdns,mosdns,v2ray-geodata}

@@ -19,7 +19,3 @@
 
 #Add packages from kenzok8/small-package
 git clone --depth=1 https://github.com/kenzok8/small-package package/small-package
-
-#Replace with sbwml/luci-app-mosdns
-git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/geodata
