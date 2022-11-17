@@ -1,3 +1,7 @@
+请使用 [KevinMX/Railgun](https://github.com/KevinMX/Railgun)。
+
+Please use [KevinMX/Railgun](https://github.com/KevinMX/Railgun) instead.
+
 # actions-lede-r619ac
 `Lean's lede for P&W R619AC.`
 
